@@ -1,5 +1,4 @@
-function App() {
-  return <h1 className="text-9xl underline">Syntaxa</h1>;
+import Layout from "./app/layout/Layout";
+export default function App() {
+  return <Layout />;
 }
-
-export default App;
